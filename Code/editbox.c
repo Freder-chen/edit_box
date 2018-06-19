@@ -254,9 +254,3 @@ int edit_box(char *filename)
 	} while (process_keypress());
 	return 0;
 }
-
-int main()
-{
-	edit_box("text.txt");
-	return 0;
-}

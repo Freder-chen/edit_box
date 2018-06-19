@@ -1,4 +1,5 @@
-#pragma once
+#ifndef __EDIT__BOX
+#define __EDIT__BOX
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -19,3 +20,5 @@
 
 /* Return Error number, but I didn't realize it. =.= */
 int edit_box(char *filename);
+
+#endif
